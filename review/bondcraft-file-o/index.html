@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <!--welcome page -->
+    <div class="welcome-page">
+        <div class="cont">
+        <img src="svg/load.svg" alt="">
+        <h3>Let's get started...</h3>
+        <p>Personalization tool is loading..</p>
+    </div>
+    </div>
+<!--welcome page ends here-->
+
+
+<div class="main-page">
+
+
+
+    <div class="container">
+        <div class="cards">
+            <div class="card hide-text">
+                <img src="img/5178492.jpg" alt="">
+            </div>
+    
+            <div class="card">
+                <div class="add-text show-text" id="show-text1">
+                    <b>Add Text </b><i class="fa fa-pencil-alt"></i>
+                </div>
+            </div>
+    
+            <div class="card show-text" id="show-text2"></div>
+    
+            <div class="card show-text" id="show-text3"> </div>
+        </div>
+
+    </div>
+
+
+    <div class="empy" id="empy">
+        <div class="emp">
+        <p>Click on any text box or photo field to begin personalising </p>
+    </div>
+    </div>
+
+
+    <div class="side-bar">
+        <input type="radio" name="slider" id="font" checked>
+        <input type="radio" name="slider" id="size">
+        <input type="radio" name="slider" id="color">
+        <input type="radio" name="slider" id="align">
+        <nav>
+            <div class="head">
+            <label for="font" class="font">Font</label>
+            <label for="size" class="size">15</label>
+            <label for="color" class="color"><div id="color-fill"></div></label>
+            <label for="align" class="align"><img src="svg/align-center.svg" alt=""></label>
+            <button class="done">Done</button>
+            <div class="slider"></div>
+        </div>
+
+        </nav>
+<section>
+
+    <div class="content content-1">
+        <div class="title"><h3 id="h">Font</h3>
+
+            <div class="fonts">
+
+                <div class="r1">
+            <input type="radio" name="font" id="Coronetscript, cursive" class="c1" value="Coronetscript, cursive" >
+            <label for="Coronetscript, cursive" style="font-family:Coronetscript, cursive;"> Coronetscript, cursive</label>
+        </div>
+
+        <div class="r1">
+    <input type="radio" name="font" id="Microsoft Sans Serif" class="c1" value="Microsoft Sans Serif">
+    <label for="Microsoft Sans Serif" style="font-family:Microsoft Sans Serif;">Microsoft Sans Serif</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Palatino Linotype" class="c1" value="Palatino Linotype">
+<label for="Palatino Linotype" style="font-family:Palatino Linotype;">Palatino Linotype</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Comic Sans MS" class="c1" value="Comic Sans MS">
+<label for="Comic Sans MS" style="font-family:Comic Sans MS;">Comic Sans MS</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Zapf Chancery, cursive" class="c1" value="Zapf Chancery, cursive">
+<label for="Zapf Chancery, cursive" style="font-family:Zapf Chancery, cursive;">Zapf Chancery, cursive </label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Trebuchet MS" class="c1" value="Trebuchet MS">
+<label for="Trebuchet MS" style="font-family:Trebuchet MS;">Trebuchet MS</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Segoe Script" class="c1" value="Segoe Script">
+<label for="Segoe Script" style="font-family:Segoe Script;">Segoe Script</label>
+</div>
+
+        </div>
+        </div>
+    
+    </div>
+
+    <div class="content content-2">
+        <div class="title"><h3 id="siz">Font Size</h3></div>
+        <div class="fonts-size">
+            <button class="Btns" value="12">12</button>
+            <button class="Btns" value="14">14</button>
+            <button class="Btns" value="16">16</button>
+            <button class="Btns" value="18">18</button>
+            <button class="Btns" value="20">20</button>
+            <button class="Btns" value="25">25</button>
+            <button class="Btns" value="30">30</button>
+            <button class="Btns" value="35">35</button>
+            <button class="Btns" value="40">40</button>
+            <button class="Btns" value="45">45</button>
+            <button class="Btns" value="50">50</button>
+            <button class="Btns" value="55">55</button>
+            <button class="Btns" value="60">60</button>
+            <button class="Btns" value="65">65</button>
+        </div>
+    </div>
+
+    <div class="content content-3">
+        <div class="title"><h3>Text Color</h3></div>
+        <div class="colors">
+                <button class="bcolor" value="black"></button>
+                <button class="bcolor" value="red"></button>
+                <button class="bcolor" value="green"></button>
+                <button class="bcolor" value="rgb(240, 98, 122)"></button>
+                <button class="bcolor" value="rgb(92, 9, 148)"></button>
+                <button class="bcolor" value="rgb(221, 131, 12)"></button>
+                <button class="bcolor" value="rgb(26, 7, 107)"></button>
+                <button class="bcolor" value="rgb(3, 49, 3)"></button>
+                <button class="bcolor" value="rgb(206, 36, 149)"></button>
+                <button class="bcolor" value="rgb(107, 107, 107)"></button>
+                <button class="bcolor" value="rgb(156, 91, 16)"></button>
+                <button class="bcolor" value="rgb(51, 12, 112)"></button>
+                <button class="bcolor" value="rgb(16, 99, 148)"></button>
+                <button class="bcolor" value="rgb(201, 34, 145)"></button>
+                <button class="bcolor" value="rgb(0, 107, 150)"></button>
+                <button class="bcolor" value="rgb(45, 36, 165)"></button>
+                <button class="bcolor" value=" rgb(117, 8, 8)"></button>
+                <button class="bcolor" value="rgb(0, 53, 0)"></button>
+                <button class="bcolor" value="rgb(216, 161, 11)"></button>
+                <button class="bcolor" value="rgb(168, 204, 8)"></button>
+        </div>
+    </div>
+
+    <div class="content content-4">
+        <div class="title"><h3>Alignment</h3></div>
+        <div class="horizontal">
+            <p>horizontal</p>
+            <button class="align" value=""><img src="svg/align-left.svg" alt=""></button>
+            <button class="align" value=""><img src="svg/align-center-1.svg" alt=""></button>
+            <button class="align" value=""><img src="svg/align-right.svg" alt=""></button>
+            <button class="align" value=""><img src="svg/align-justify.svg" alt=""></button>
+        </div>
+    </div>
+
+</section>
+
+    </div>
+
+   
+
+    <div class="display-bar">
+
+        <div class="nav">
+            <i class="fa fa-angle-left fa-2x"></i>
+
+            <div class="cards-nav">
+                <div class="card-nav">
+                    <img src="/img/5178492.jpg" alt="">
+                </div>
+
+                <div class="card-nav cardn1">
+                    
+                </div>
+
+                <div class="card-nav cardn2">
+                    
+                </div>
+
+                <div class="card-nav cardn3">
+                    
+                </div>
+            </div>
+
+            <i class="fa fa-angle-right fa-2x"></i>
+
+        </div>
+
+
+        <div class="btn-add">
+            <button id="pre">Preview</button>
+            <button id="bas">Add to Basket</button>
+        </div>
+
+        <div class="md-btn-add">
+            <button id="pre">Preview</button>
+            <button id="bas">Add to Basket</button>
+        </div>
+
+    </div>
+
+
+
+
+    <!--mobile nav-bar-->
+    <div id="side-bar">
+        <input type="radio" name="slider" id="md-font" checked>
+        <input type="radio" name="slider" id="md-size">
+        <input type="radio" name="slider" id="md-color">
+        <input type="radio" name="slider" id="md-align">
+        <nav>
+            <div class="md-head">
+            <label for="md-font" class="md-font">Font</label>
+            <label for="md-size" class="md-size">15</label>
+            <label for="md-color"><div id="md-color-fill"></div></label>
+            <label for="md-align"><img src="svg/align-center.svg" alt=""></label>
+            <button class="done">Done</button>
+            <div class="slider"></div>
+        </div>
+
+        </nav>
+
+<section id="md-section">
+    <button class="md-close">&times;</button>
+    <div class="content content-1">
+        <div class="title"><h3 id="h">Font</h3>
+
+            <div class="fonts">
+
+                <div class="r1">
+            <input type="radio" name="font" id="Coronetscript, cursive" class="c1" value="Coronetscript, cursive" >
+            <label for="Coronetscript, cursive" style="font-family:Coronetscript, cursive;"> Coronetscript, cursive</label>
+        </div>
+
+        <div class="r1">
+    <input type="radio" name="font" id="Microsoft Sans Serif" class="c1" value="Microsoft Sans Serif">
+    <label for="Microsoft Sans Serif" style="font-family:Microsoft Sans Serif;">Microsoft Sans Serif</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Palatino Linotype" class="c1" value="Palatino Linotype">
+<label for="Palatino Linotype" style="font-family:Palatino Linotype;">Palatino Linotype</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Comic Sans MS" class="c1" value="Comic Sans MS">
+<label for="Comic Sans MS" style="font-family:Comic Sans MS;">Comic Sans MS</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Zapf Chancery, cursive" class="c1" value="Zapf Chancery, cursive">
+<label for="Zapf Chancery, cursive" style="font-family:Zapf Chancery, cursive;">Zapf Chancery, cursive </label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Trebuchet MS" class="c1" value="Trebuchet MS">
+<label for="Trebuchet MS" style="font-family:Trebuchet MS;">Trebuchet MS</label>
+</div>
+
+<div class="r1">
+<input type="radio" name="font" id="Segoe Script" class="c1" value="Segoe Script">
+<label for="Segoe Script" style="font-family:Segoe Script;">Segoe Script</label>
+</div>
+
+        </div>
+        </div>
+    
+    </div>
+
+    <div class="content content-2">
+        <div class="title"><h3 id="siz">Font Size</h3></div>
+        <div class="fonts-size">
+            <button class="md-Btns" value="12">12</button>
+            <button class="md-Btns" value="14">14</button>
+            <button class="md-Btns" value="16">16</button>
+            <button class="md-Btns" value="18">18</button>
+            <button class="md-Btns" value="20">20</button>
+            <button class="md-Btns" value="25">25</button>
+            <button class="md-Btns" value="30">30</button>
+            <button class="md-Btns" value="35">35</button>
+            <button class="md-Btns" value="40">40</button>
+            <button class="md-Btns" value="45">45</button>
+            <button class="md-Btns" value="50">50</button>
+            <button class="md-Btns" value="55">55</button>
+            <button class="md-Btns" value="60">60</button>
+            <button class="md-Btns" value="65">65</button>
+        </div>
+    </div>
+
+    <div class="content content-3">
+        <div class="title"><h3>Text Color</h3></div>
+        <div class="colors">
+                <button class="bcolor" value="black"></button>
+                <button class="bcolor" value="red"></button>
+                <button class="bcolor" value="green"></button>
+                <button class="bcolor" value="rgb(240, 98, 122)"></button>
+                <button class="bcolor" value="rgb(92, 9, 148)"></button>
+                <button class="bcolor" value="rgb(221, 131, 12)"></button>
+                <button class="bcolor" value="rgb(26, 7, 107)"></button>
+                <button class="bcolor" value="rgb(3, 49, 3)"></button>
+                <button class="bcolor" value="rgb(206, 36, 149)"></button>
+                <button class="bcolor" value="rgb(107, 107, 107)"></button>
+                <button class="bcolor" value="rgb(156, 91, 16)"></button>
+                <button class="bcolor" value="rgb(51, 12, 112)"></button>
+                <button class="bcolor" value="rgb(16, 99, 148)"></button>
+                <button class="bcolor" value="rgb(201, 34, 145)"></button>
+                <button class="bcolor" value="rgb(0, 107, 150)"></button>
+                <button class="bcolor" value="rgb(45, 36, 165)"></button>
+                <button class="bcolor" value=" rgb(117, 8, 8)"></button>
+                <button class="bcolor" value="rgb(0, 53, 0)"></button>
+                <button class="bcolor" value="rgb(216, 161, 11)"></button>
+                <button class="bcolor" value="rgb(168, 204, 8)"></button>
+        </div>
+    </div>
+
+    <div class="content content-4">
+        <div class="title"><h3>Alignment</h3></div>
+        <div class="align">
+        <div class="horizontal">
+            <p>horizontal</p>
+            <button class="align" value=""><img src="svg/align-left.svg" alt=""></button>
+            <button class="align" value=""><img src="svg/align-center-1.svg" alt=""></button>
+            <button class="align" value=""><img src="svg/align-right.svg" alt=""></button>
+            <button class="align" value=""><img src="svg/align-justify.svg" alt=""></button>
+        </div>
+    </div>
+    </div>
+</section>
+
+    </div>
+
+<!--closed-->
+
+    <script src="js/main.js"></script>
+</body>
+</html>
